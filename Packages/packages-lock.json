@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.soupday.cc3_unity_tools": {
-      "version": "file:D:/User Directories/Downloads/cc_unity_tools_3D-1.6.1",
+      "version": "file:C:/Users/TheGh/Downloads/cc_unity_tools_3D-1.6.1",
       "depth": 0,
       "source": "local",
       "dependencies": {}
@@ -208,15 +208,14 @@
       }
     },
     "org.khronos.unitygltf": {
-      "version": "https://github.com/KhronosGroup/UnityGLTF.git/#release/2.9.0-rc",
+      "version": "file:C:/Users/TheGh/Downloads/UnityGLTF-main",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0",
         "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.shadergraph": "10.0.0"
-      },
-      "hash": "4ebe065f276025fcd3f1d873d4da55ff46e8e2c6"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

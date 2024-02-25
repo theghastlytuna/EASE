@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.soupday.cc3_unity_tools": "file:D:/User Directories/Downloads/cc_unity_tools_3D-1.6.1",
+    "com.soupday.cc3_unity_tools": "file:C:/Users/TheGh/Downloads/cc_unity_tools_3D-1.6.1",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.textmeshpro": "3.0.6",
@@ -8,7 +8,7 @@
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.1",
     "com.valvesoftware.unity.openvr": "file:../Assets/SteamVR/OpenVRUnityXRPackage/Editor/com.valvesoftware.unity.openvr-1.2.1.tgz",
-    "org.khronos.unitygltf": "https://github.com/KhronosGroup/UnityGLTF.git/#release/2.9.0-rc",
+    "org.khronos.unitygltf": "file:C:/Users/TheGh/Downloads/UnityGLTF-main",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
