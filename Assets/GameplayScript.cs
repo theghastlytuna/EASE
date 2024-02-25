@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class GameplayScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public List<Transform> Positions = new List<Transform>();
+    public JordanController JordanController;
 
-    // Update is called once per frame
+    float timer = 5f;
+    bool tester = true;
+
     void Update()
     {
-        
+        timer -= Time.deltaTime;
+        if (timer < 0 && tester)
+        {
+            tester = false;
+            JordanController.WalkTo(Positions[0]);
+        }
     }
 }
