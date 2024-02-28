@@ -11,11 +11,12 @@ public class LookAtTrigger : VRTrigger
     [SerializeField] UnityEvent resetTrigger;
 
     bool counting = false;
+    bool triggered = false;
     float countedTime = 0f;
 
     private void FixedUpdate()
     {
-        if (counting)
+        if (counting && triggered == false)
         {
             countedTime += Time.fixedDeltaTime;
             Debug.Log("Time Stared at:" + countedTime);
@@ -27,7 +28,7 @@ public class LookAtTrigger : VRTrigger
                 Debug.Log("Event Invoked");
                 counting = false;
                 countedTime = 0f;
-
+                triggered = true;
             }
         }
     }
@@ -51,6 +52,6 @@ public class LookAtTrigger : VRTrigger
         countedTime = 0f;
         resetTrigger.Invoke();
         Debug.Log("Reset Triggered");
-
+        triggered = false;
     }
 }
