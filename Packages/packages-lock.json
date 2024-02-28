@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.soupday.cc3_unity_tools": {
-      "version": "file:C:/Users/TheGh/Downloads/cc_unity_tools_3D-1.6.1",
+      "version": "file:cc_unity_tools_3D-1.6.1",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {}
     },
     "com.unity.collab-proxy": {
@@ -208,9 +208,9 @@
       }
     },
     "org.khronos.unitygltf": {
-      "version": "file:C:/Users/TheGh/Downloads/UnityGLTF-main",
+      "version": "file:UnityGLTF-main",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0",
         "com.unity.modules.imageconversion": "1.0.0",
